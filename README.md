@@ -1,5 +1,7 @@
 # r-script
 
+EDIT: edited the package.js file to run the package with webpack.
+
 A simple little module for passing data from NodeJS to R (and back again).
 
 Data passed from node is converted into a list and loaded into the R environment as the variable `input`. No special syntax in R is needed. For better portability/reliability, it's recommended to load packages with [`needs`](https://github.com/joshkatz/needs) (comes packaged inside the module — no installation required).
