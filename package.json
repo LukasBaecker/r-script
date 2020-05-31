@@ -18,6 +18,9 @@
   "dependencies": {
     "underscore": "^1.8.3"
   },
+  "browser":{
+    "child_process": false
+  },
   "devDependencies": {
     "queue-async": "^1.0.7"
   }
